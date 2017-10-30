@@ -13,6 +13,9 @@ header > ul{
 header > ul > li > a{
   text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e7b7f6efa8bbec320fc530d4c9cf3f75117ea73a
   color: #000000;
 }
 
@@ -20,11 +23,9 @@ header > ul > li
 {
   margin-right: 25px;
   margin-left: 25px;
-=======
   color: #000000;
   display: flex;
   justify-content: space-around;
->>>>>>> 1a9510320e81539e90281e31adafed32d3ca8e16
 }
 .logo{
   position: relative;
