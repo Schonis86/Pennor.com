@@ -1,0 +1,107 @@
+header{
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    font-family: "sans-serif", Tahoma;
+    height: 150px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header h1{
+    font-size: 3vw;
+}
+main{
+    top: 150px;
+    right: 0;
+    left: 0;
+    position: absolute;
+    overflow: auto;
+    background-color: rgba(16, 71, 255, 0.07);
+}
+
+footer{
+    background-color: white;
+    position: fixed;
+    overflow: hidden;
+    height: 60px;
+    right: 0;
+    left: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    bottom: 0;
+}
+.footerText{
+    font-style: oblique;
+    font-size: 1.2vw;
+}
+
+.productDescription{
+    font-size: 0.9vw;
+    padding-left: 30px;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+}
+
+.productImage{
+    width: 200px;
+    height: 150px;
+}
+.productPrice{
+    font-size: 1.8vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #010101;
+}
+.productPriceDiscount{
+    font-size: 1.8vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #f80e00;
+}
+
+.buttonsSection{
+    position:absolute;
+    bottom:10%;
+    right:0;
+}
+
+.productTable tr:first-child {
+    font-size: 1.5vw;
+    height: 100px;
+}
+.productTable{
+    overflow: auto;
+    padding: 15px;
+}
+.productTable th{
+    padding-left: 20px;
+}
+
+.navigationButtons{
+    font-size: 25px;
+    padding: 12px;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    text-decoration: none;
+    color: black;
+}
+
+.footerButtonsSection{
+    position: absolute;
+    left: 50%;
+    bottom: 6%;
+
+}
+.footerButton{
+    padding-left: 4px;
+    padding-right: 4px;
+}

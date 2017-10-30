@@ -1,0 +1,124 @@
+@font-face {
+  font-family: EraserRegular;
+  src: url(EraserRegular.ttf);
+}
+body {
+  font-family: EraserRegular;
+}
+.navigationMenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AEF0CA;
+  display: flex;
+  justify-content: flex-end;
+}
+.navigationMenu > li{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigationMenu > li > a{
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigationMenu > li > a:hover:not(.youAreHere){
+  background-color: #c6f4d9
+}
+.youAreHere{
+  background-color: #8aaa97;
+}
+
+.specialOffer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#offer{
+  font-size: 24px
+}
+.bestSellers{
+  position: relative;
+}
+figcaption{
+  color: #000000;
+}
+#bestSellerText{
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+.bestSellers{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.bestSellers > a{
+  text-decoration: none;
+}
+table{
+  border-collapse: collapse;
+}
+th, td{
+  border: 3px solid #8aaa97;
+  border-collapse: collapse;
+}
+td img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.productTable{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.askUs{
+  width: 30%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs{
+  width: 30%;
+}
+
+.baseFooter{
+  list-style-type: none;
+  background-color: #AEF0CA;
+  display: flex;
+  justify-content: space-between;
+}
+.followUs {
+  display: flex;
+  justify-content: space-around;
+}
+.leftFollow {
+  padding-right: 30px;
+}
+.followUs > a {
+  color: #ffffff;
+  text-decoration: none;
+  border-left: 1px solid white;
+  width: 150px;
+  margin: auto;
+  padding-left: 30px;
+}
+.followUs > a:hover{
+  color:#c6f4d9;
+}
+.copyright{
+  padding-left: 30px;
+  font-family: Courier New;
+}
