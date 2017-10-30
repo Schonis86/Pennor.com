@@ -12,25 +12,13 @@ header > ul{
 }
 header > ul > li > a{
   text-decoration: none;
-<<<<<<< HEAD
-  color: #000000;  
-
-=======
   color: #000000;
->>>>>>> b505a79e5d6e8a0313e0708aa8904f27861b3aae
 }
 
 header > ul > li
 {
   margin-right: 25px;
   margin-left: 25px;
-<<<<<<< HEAD
-
-  color: #000000;
-  display: flex;
-  justify-content: space-around;
-=======
->>>>>>> b505a79e5d6e8a0313e0708aa8904f27861b3aae
   color: #000000;
   display: flex;
   justify-content: space-around;
