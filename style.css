@@ -12,32 +12,21 @@ header > ul{
 }
 header > ul > li > a{
   text-decoration: none;
-<<<<<<< HEAD
   color: #000000;  
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e7b7f6efa8bbec320fc530d4c9cf3f75117ea73a
-  color: #000000;
->>>>>>> 2e5b93c0cb04732c6b414546254bd6b943a2aa9d
+
 }
 
 header > ul > li
 {
   margin-right: 25px;
   margin-left: 25px;
-<<<<<<< HEAD
 
   color: #000000;
   display: flex;
   justify-content: space-around;
-
-=======
   color: #000000;
   display: flex;
   justify-content: space-around;
->>>>>>> 2e5b93c0cb04732c6b414546254bd6b943a2aa9d
 }
 .logo{
   position: relative;
