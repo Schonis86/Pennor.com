@@ -1,6 +1,9 @@
 body{
   font-family: Courier new;
 }
+header{
+  margin-top: -50px
+}
 header > ul{
   list-style: none;
   display: flex;
@@ -25,7 +28,7 @@ header > ul > li
 }
 .logo{
   position: relative;
-  top: 18.1px;
+  top: 60px;
   }
 .socialMedia{
 display: flex;
