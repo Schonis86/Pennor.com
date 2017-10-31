@@ -1,5 +1,5 @@
 body{
-  font-family: Courier New;
+  font-family: Courier new;
 }
 header > ul{
   list-style: none;
@@ -59,4 +59,29 @@ footer
   right: 0;
   bottom: 0;
   left: 0;
+}
+/*---------new css code --------*/
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.askUs{
+  width: 30%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs{
+  width: 30%;
+}
+.aboutUs > img{
+  width: 75%;
+}
+#askUsText{
+  font-weight: bold;
+}
+#aboutUsText{
+  font-weight: bold;
 }
