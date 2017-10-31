@@ -2,7 +2,7 @@ body{
   font-family: Courier new;
 }
 header{
-  margin-top: -50px
+  margin-top: -5%;
 }
 header > ul{
   list-style: none;
@@ -28,7 +28,7 @@ header > ul > li
 }
 .logo{
   position: relative;
-  top: 60px;
+  top: 72px;
   }
 .socialMedia{
 display: flex;
@@ -88,3 +88,6 @@ footer
 #aboutUsText{
   font-weight: bold;
 }
+/*.break{
+margin-left: 420.8px;
+}*/
