@@ -99,6 +99,10 @@ main{
     padding-right: 30px;
     color: #010101;
 }
+#overline{
+    text-decoration: line-through;
+}
+
 
 .productPriceDiscount {
     font-size: 1.5vw;
@@ -113,13 +117,12 @@ main{
 }
 
 .productTable {
-
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .productTable th {
     border: solid 1px;
-    padding-left: 20px;
-    vertical-align: middle;
 }
 
 
