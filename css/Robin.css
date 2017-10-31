@@ -1,62 +1,126 @@
-body{
-  font-family: Courier New;
+body {
+    font-family: Courier New;
 }
+
+header{
+    z-index: 10;
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 header > ul{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
-  left: -1.5%
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: -1.5%
 
 }
 header > ul > li > a{
-  text-decoration: none;
-  color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
 header > ul > li
 {
-  margin-right: 25px;
-  margin-left: 25px;
-  color: #000000;
-  display: flex;
-  justify-content: space-around;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
 }
-.logo{
-  position: relative;
-  top: 18.1px;
-  }
-.socialMedia{
-display: flex;
-flex-direction: row;
-justify-content:center;
+
+.logo {
+    position: relative;
+    top: 18.1px;
 }
-.socialMedia > a > img{
-  height: 35px;
-  margin: 5px;
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialMedia > a > img {
+    height: 35px;
+    margin: 5px;
 
 }
-.followUs{
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 32%;
+
+.followUs {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 32%;
 }
-footer > p{
-  text-align: right;
-  margin-right: 10px;
+
+footer > p {
+    text-align: right;
+    margin-right: 10px;
 }
-.biglogo
-{
-  display: flex;
-  justify-content: center;
+
+.biglogo {
+    display: flex;
+    justify-content: center;
 
 }
-footer
-{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
+footer {
+    position: inherit;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
+main{
+    margin-top: 70px;
+}
+
+/* /////////////////// PRODUCT TABLE CLASSES ////////////////////////// */
+.productDescription {
+    font-size: 0.8vw;
+    padding-left: 30px;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+}
+
+.productImage {
+    width: 200px;
+    height: 150px;
+}
+
+.productPrice {
+    font-size: 1.5vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #010101;
+}
+
+.productPriceDiscount {
+    font-size: 1.5vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #f80e00;
+}
+
+.productTable tr:first-child {
+    font-size: 1.2vw;
+    height: 100px;
+}
+
+.productTable {
+
+}
+
+.productTable th {
+    border: solid 1px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+
+/* ///////////////////////////////////////////// */
