@@ -81,7 +81,7 @@ main{
 
 /* /////////////////// PRODUCT TABLE CLASSES ////////////////////////// */
 .productDescription {
-    font-size: 0.8vw;
+    font-size: 1vw;
     padding-left: 30px;
     display: inline-block;
     height: 150px;
@@ -99,6 +99,10 @@ main{
     padding-right: 30px;
     color: #010101;
 }
+#overline{
+    text-decoration: line-through;
+}
+
 
 .productPriceDiscount {
     font-size: 1.5vw;
@@ -109,17 +113,16 @@ main{
 
 .productTable tr:first-child {
     font-size: 1.2vw;
-    height: 100px;
+    height: 50px;
 }
 
 .productTable {
-
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .productTable th {
     border: solid 1px;
-    padding-left: 20px;
-    vertical-align: middle;
 }
 
 
