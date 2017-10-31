@@ -2,7 +2,7 @@ body{
   font-family: Courier new;
 }
 header{
-  margin-top: -80px
+  margin-top: -5%;
 }
 header > ul{
   list-style: none;
