@@ -80,6 +80,24 @@ main{
 }
 
 /* /////////////////// PRODUCT TABLE CLASSES ////////////////////////// */
+.addButton    {
+    background:url(../images/addButton.jpg);
+    background-size: cover;
+    width:20px;
+    height:20px;
+    border: 0;
+    margin-left: 20px;
+}
+.removeButton    {
+    background:url(../images/trashbinsmal.png);
+    background-size: cover;
+    width:20px;
+    height:20px;
+    border: 0;
+    margin-left: 5px;
+}
+
+
 .productDescription {
     font-size: 1vw;
     padding-left: 30px;
@@ -90,11 +108,11 @@ main{
 
 .productImage {
     width: 200px;
-    height: 150px;
+    height: 150px
 }
 
 .productPrice {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     padding-left: 30px;
     padding-right: 30px;
     color: #010101;
@@ -105,7 +123,7 @@ main{
 
 
 .productPriceDiscount {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     padding-left: 30px;
     padding-right: 30px;
     color: #f80e00;
