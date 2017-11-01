@@ -1,14 +1,18 @@
 body {
     font-family: Courier New;
 }
-
+@media screen and (min-width: 480px) {
+    header > ul > li {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
 header{
+    margin-top: -4vw;
     z-index: 10;
     position: fixed;
     background: #ffffff;
-    top: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
 }
 
 header > ul{
@@ -24,7 +28,6 @@ header > ul > li > a{
     text-decoration: none;
     color: #000000;
 }
-
 header > ul > li
 {
     margin-right: 25px;
@@ -34,9 +37,10 @@ header > ul > li
     justify-content: space-around;
 }
 
+
 .logo {
     position: relative;
-    top: 18.1px;
+    top: 5vw;
 }
 
 .socialMedia {
@@ -46,8 +50,8 @@ header > ul > li
 }
 
 .socialMedia > a > img {
-    height: 35px;
-    margin: 5px;
+    height: 3vw;
+    margin: 0.4vw;
 
 }
 
@@ -60,7 +64,7 @@ header > ul > li
 
 footer > p {
     text-align: right;
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 
 .biglogo {
@@ -76,45 +80,45 @@ footer {
     left: 0;
 }
 main{
-    margin-top: 70px;
+    padding-top: 8vw;
 }
 
 /* /////////////////// PRODUCT TABLE CLASSES ////////////////////////// */
 .addButton    {
     background:url(../images/addButton.jpg);
     background-size: cover;
-    width:20px;
-    height:20px;
+    width:1.5vw;
+    height:1.5vw;
     border: 0;
-    margin-left: 20px;
+    margin-left: 1.5vw;
 }
 .removeButton    {
     background:url(../images/trashbinsmal.png);
     background-size: cover;
-    width:20px;
-    height:20px;
+    width:1.5vw;
+    height:1.5vw;
     border: 0;
-    margin-left: 5px;
+    margin-left: 1.5vw;
 }
 
 
 .productDescription {
     font-size: 1vw;
-    padding-left: 30px;
+    padding-left: 1vw;
     display: inline-block;
-    height: 150px;
-    width: 200px;
+    height: 10vw;
+    width: 15vw;
 }
 
 .productImage {
-    width: 200px;
-    height: 150px
+    height: 10vw;
+    width: 12vw;
 }
 
 .productPrice {
     font-size: 1.2vw;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 2vw;
+    padding-right: 2vw;
     color: #010101;
 }
 #overline{
@@ -124,14 +128,14 @@ main{
 
 .productPriceDiscount {
     font-size: 1.2vw;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 2vw;
+    padding-right: 2vw;
     color: #f80e00;
 }
 
 .productTable tr:first-child {
     font-size: 1.2vw;
-    height: 50px;
+    height: 3vw;
 }
 
 .productTable {
