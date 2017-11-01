@@ -1,6 +1,14 @@
 body{
   font-family: Courier New;
 }
+header{
+    z-index: 10;
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 header > ul{
   list-style: none;
   display: flex;
@@ -22,6 +30,10 @@ header > ul > li
   color: #000000;
   display: flex;
   justify-content: space-around;
+}
+main
+{
+  padding-top:12%;
 }
 .logo{
   position: relative;
@@ -53,10 +65,154 @@ footer > p{
   justify-content: center;
 
 }
+
 footer
 {
-  position: absolute;
+  position: inherit;
   right: 0;
   bottom: 0;
   left: 0;
 }
+
+ /*  allt under är calles   */
+
+
+ #product_numbers
+{
+  width: 60%;
+  border-bottom: 1px solid #ddd;
+} 
+
+
+#input
+{
+  width: 22px;
+}
+#button
+{
+  
+
+  background-color: white;
+}
+
+#button2
+{
+  padding: 0;
+  border: none;
+  background-color: white;
+}
+
+#art
+{
+  width: 350px;
+
+}
+
+.info
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+.shit
+{
+  margin-top: 7%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.shipping
+{
+  
+ 
+ 
+}
+#submit_button_checkout
+{
+  font-family: courier new;
+  height: 30px;
+  width: 300px;
+  margin-top: 30px;
+  border-radius: 2px;
+  border-color: black;
+  color: #ddd;
+  background-color: #000000;
+}
+#submit_button_checkout:hover
+{
+  font-family: courier new;
+  background-color: white;
+  color: black;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  font-size: 20px;
+
+}
+
+#total
+{
+display: flex;
+flex-direction: column;
+align-self: center;
+width: 65%;
+padding: 0;
+}
+
+#total li
+{
+  text-align: center;
+  list-style: none;
+}
+
+#totalsek
+{
+  font-size: 43px;
+}
+#product_numbers th
+{
+  text-align: left;
+
+}
+#product_numbers
+{
+  width: 80%;
+}
+
+.product_bin
+{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.product_list
+{
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  width: 80%;
+
+
+}
+.main_checkout
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.right_list
+{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: flex-start;
+  
+}
+.shipping 
+{
+ width: 170px;
+}
+
