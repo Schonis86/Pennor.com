@@ -8,32 +8,31 @@
 
 <body>
   <header>
-    <div class="logo">
-    <img src="images/Logo_mini.png" alt="Logo" title="Pennor.com">
-    </div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Checkout</a></li>
-    </ul>
-  </header>
+      <div class="logo">
+        <img src="images/pennorLogo_mini.png" alt="Logo" title="Pennor.com">
+      </div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+      <center><img class="break" src="images/break.png" alt="breakline"></center>
+    </header>
 
-  <main>
+  <main class="main_checkout">
     
 
-<div>
-  <h1>Checkout</h1>
-</div>
 
-    <div>
 
+    <span class="product_list">
+<h1>Checkout</h1>
        <table id="product_numbers">
           <tr class="test">
             <th><img src="images/erbjudande1smal.jpg"></th>
             <th><u>Art:</u> 298343/Colored Pencil</th>
             <th><u>Web:</u> in stock</th>
-            <th><u>Quantity:</u> <input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
+            <th><input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
             <th><u>Price:</u> 150kr</th>
             <th><a href=""><img title="Remove" src="images/trashbinsmal.png"></a></th>
           </tr>
@@ -43,7 +42,7 @@
             <th><img src="images/erbjudande1smal.jpg"></th>
             <th><u>Art:</u> 298343/Colored Pencil</th>
             <th><u>Web:</u> in stock</th>
-            <th><u>Quantity:</u> <input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
+            <th><input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
             <th><u>Price:</u> 150kr</th>
             <th><a href=""><img title="Remove" src="images/trashbinsmal.png"></a></th>
           </tr>
@@ -53,7 +52,7 @@
             <th><img src="images/erbjudande1smal.jpg"></th>
             <th><u>Art:</u> 298343/Colored Pencil</th>
             <th><u>Web:</u> in stock</th>
-            <th><u>Quantity:</u> <input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
+            <th><input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
             <th><u>Price:</u> 150kr</th>
             <th><a href=""><img title="Remove" src="images/trashbinsmal.png"></a></th>
           </tr>
@@ -63,42 +62,35 @@
             <th><img src="images/erbjudande1smal.jpg"></th>
             <th><u>Art:</u> 298343/Colored Pencil</th>
             <th><u>Web:</u> in stock</th>
-            <th><u>Quantity:</u> <input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
+            <th><input id="input" type="text" placeholder="1" name="nr:">/Pcs</th>
             <th><u>Price:</u> 150kr</th>
             <th><a href=""><img title="Remove" src="images/trashbinsmal.png"></a></th>
           </tr>
         </table>
 
-
-        </div>
-
-    
-
- <div class="shit">
-
-
+        <span class="shit">
   <ul id="total">
     <li id="totalproducts">Products: </li>
     <li id="vat">Vat 25%: 87.5sek</li>
     <li id="shipping">Shipping: 98sek</li>
     <li id="totalsek"><u>Total</u>: 350sek</li>
  
-    <li><a href=""><button id="submit_button">Submit</button></a></li>
+    <li><a href=""><button id="submit_button_checkout">Submit</button></a></li>
   </ul>
-
-
-
-  
-
-
-
-  
-  
-  
+</span>
 
 
 
 
+
+
+
+
+
+        </span>
+
+
+<span class="right_list">
       <form class="info">
         <h3>Shipping information</h3>
 
@@ -129,18 +121,10 @@
           <label><u>Email</u></label>
           <br>
           <input id="input_info" type="text" name="Email">
-      
-
       </form>
-
-
-
-      <div>
-
-
-
+      <span class="form_bottom">
       <table class="shipping">
-        <h3>Shipping information</h3>
+        <h3>Delivery</h3>
         <tr>
           <td><label>Standard</label></td>
           <td><input type="radio" name="Standard"></td>
@@ -156,7 +140,7 @@
       </table>
 
       <table class="shipping">
-        <h3>Payment Information</h3>
+        <h3>Payment</h3>
         <tr>
           <td><label>Card</label></td>
           <td><input type="radio" name="Card"></td>
@@ -174,25 +158,13 @@
           <td><input type="radio" name="Bitcoin"></td>
         </tr>
       </table>
-      </div>
-
+     </span>
      
       
-    </div>
-
-    
-
-
-      
- 
-    
-
-
-
-
 
   </main>
 
+  
 
   <footer>
 
