@@ -21,13 +21,10 @@
 </header>
 
   <main class="main_checkout">
-    
-
-
 
     <span class="product_list">
 <h1>Checkout</h1>
-       <table id="product_numbers">
+       <table id="product_numbers1">
           <tr class="test">
             <th><img src="images/erbjudande1smal.jpg"></th>
             <th><u>Art:</u> 298343/Colored Pencil</th>
@@ -70,12 +67,12 @@
 
         <span class="shit">
   <ul id="total">
-    <li id="totalproducts">Products: </li>
-    <li id="vat">Vat 25%: 87.5sek</li>
+    <li>Vat 25%: 87.5sek</li>
     <li id="shipping">Shipping: 98sek</li>
     <li id="totalsek"><u>Total</u>: 350sek</li>
+    <li>SCROLL DOWN TO PLACE ORDER!</li>
  
-    <li><a href=""><button id="submit_button_checkout">Submit</button></a></li>
+    
   </ul>
 </span>
 
@@ -90,77 +87,102 @@
         </span>
 
 
-<span class="right_list">
-      <form class="info">
+<form class="right_list">
+      <span class="info">
         <h3>Shipping information</h3>
 
           <label><u>First name</u></label>
-          <br>
-          <input id="input_info" type="text" name="First name">
-          <br>
+          <input id="input_info" type="text" name="First name" required>
             <label><u>Last name</u></label>
-            <br>
-            <input id="input_info" type="text" name="Last name">
-            <br>
+            <input id="input_info" type="text" name="Last name" required>
           <label><u>Street adress</u></label>
-          <br>
-          <input id="input_info" type="text" name="Street adress">
-          <br>
-        <label><u>City</u></label>
-        <br>
-        <input id="input_info" type="text" name="City">
-        <br>
+          <input id="input_info" type="text" name="Street adress" required>
           <label><u>Zip code</u></label>
-          <br>
-          <input id="input_info" type="text" name="Zip code">
-          <br>
+          <input id="input_info" type="text" name="Zip code" pattern="[0-9]+" required >
+        <label><u>City</u></label>
+        <input id="input_info" type="text" name="City" required>
             <label><u>Country</u></label>
-            <br>
-            <input id="input_info" type="text" name="Country">
-            <br>
+            <select id="country" name="country" required>
+    <option value="se"> </option>
+    <option value="se">Sweden</option>
+    <option value="de">Denmark</option>
+    <option value="no">Norway</option>
+  </select>
           <label><u>Email</u></label>
-          <br>
-          <input id="input_info" type="text" name="Email">
-      </form>
+          <input id="input_info" type="email" name="Email" required>
+      </span>
       <span class="form_bottom">
-      <table class="shipping">
-        <h3>Delivery</h3>
+      <table class="shipping" >
+      
+        <tr>
+          <td><u><h4>Delivery</h4></u></td>
+        </tr>
         <tr>
           <td><label>Standard</label></td>
-          <td><input type="radio" name="Standard"></td>
+          <td><input type="radio" name="radio1"></td>
         </tr>
         <tr>
           <td><label>Express</label></td>
-          <td><input type="radio" name="express"></td>
+          <td><input type="radio" name="radio1"></td>
         </tr>
         <tr>
           <td><label>Home delivery</label></td>
-          <td><input type="radio" name="Home delivery"></td>
+          <td><input type="radio" name="radio1"></td>
+        </tr>
+        <tr>
+          <td><label>Store pickup</label></td>
+          <td><input type="radio" name="radio1"></td>
         </tr>
       </table>
 
       <table class="shipping">
-        <h3>Payment</h3>
+        <tr>
+          <td><u><h4>Payment</h4></u></td>
+        </tr>
         <tr>
           <td><label>Card</label></td>
-          <td><input type="radio" name="Card"></td>
+          <td><input type="radio" name="radio"></td>
         </tr>
         <tr>
           <td><label>Klarna</label></td>
-          <td><input type="radio" name="Klarna"></td>
+          <td><input type="radio" name="radio"></td>
         </tr>
         <tr>
           <td><label>Swish</label></td>
-          <td><input type="radio" name="Swish"></td>
+          <td><input type="radio" name="radio"></td>
         </tr>
         <tr>
           <td><label>Bitcoin</label></td>
-          <td><input type="radio" name="Bitcoin"></td>
+          <td><input type="radio" name="radio"></td>
         </tr>
       </table>
      </span>
+
+     <!--här är till en ny grej-->
+
+     <span>
+      <table id="last_total">
+        <tr>
+          <td>Vat 25%:</td>
+          <td>87.5sek</td>
+        </tr>
+        <tr>
+          <td>Shipping:</td>
+          <td>98sek</td>
+        </tr>
+        <tr>
+          <td><u>Total</u>:</td>
+          <td>350sek</td>
+        </tr>
+      </table>
+
+     </span>
+
+     <span class="checkout_button_mini">
+      <input id="submit_button_checkout_mini" type="submit" name="" value="submit">
+     </span>
      
-      
+      </form>
 
   </main>
 

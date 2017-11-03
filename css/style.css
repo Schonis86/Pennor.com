@@ -241,10 +241,33 @@ footer
 /*-------------PRODUCTS---------*/
 
 /*-------------CHECKOUT---------*/
+
+.product_list
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 #product_numbers
 {
-  width: 60%;
+  width: 80%;
   border-bottom: 1px solid #ddd;
+}
+#product_numbers th
+{
+  text-align: left;
+}
+#product_numbers1
+{
+  width: 80%;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+#product_numbers1 th
+{
+  text-align: left;
 }
 
 
@@ -252,24 +275,10 @@ footer
 {
   width: 1.5vw;
 }
-#button
-{
-
-
-  background-color: white;
-}
-
-#button2
-{
-  padding: 0;
-  border: none;
-  background-color: white;
-}
 
 #art
 {
   width: 30vw;
-
 }
 
 .info
@@ -277,23 +286,17 @@ footer
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
+
 .shit
 {
-  margin-top: 7%;
+  width: 80%;
+  margin-top: 5%;
   display:flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
-.shipping
-{
-
-
-
-}
 #submit_button_checkout
 {
   font-family: courier new;
@@ -313,6 +316,22 @@ footer
   padding-bottom: 3px;
   padding-right: 3px;
   font-size: 20px;
+}
+
+#submit_button_checkout_mini
+{
+  font-family: courier new;
+  height: 3vh;
+  width: 10vw;
+  margin-top: 4vh;
+  border-radius: 2px;
+  border-color: black;
+  color: #ddd;
+  background-color: #000000;
+}
+
+.checkout_button_mini
+{
 
 }
 
@@ -333,50 +352,64 @@ footer
 
 #totalsek
 {
-  font-size: 5vh;
-}
-#product_numbers th
-{
-  text-align: left;
-
-}
-#product_numbers
-{
-  width: 80%;
+  font-size: 7vh;
 }
 
 .product_bin
 {
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.product_list
-{
-  display: flex;
-  align-self: flex-start;
-  flex-direction: column;
-  width: 80%;
 
-
-}
 .main_checkout
 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 
 .right_list
 {
   display: flex;
   flex-direction: column;
-
   align-items: flex-start;
-
+  border-style: solid;
+  border-color: #ddd;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  padding-bottom: 1vw;
+  margin-top: 15vh;
+  margin-bottom: 1vh;
 }
-.shipping
+
+#shipping
 {
-  width: 18vw;
+  font-size: 1.5vw;
+}
+.form_bottom
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: -1vh;
+}
+
+
+
+/*----------nytt i checkout----------*/
+
+.right_list:hover
+{
+  
+}
+
+#last_total td
+{
+  text-align: left;
+  size: 19px;
+}
+#last_total
+{
+  margin-top: 1.5vh;
 }
 /*-------------CHECKOUT---------*/
